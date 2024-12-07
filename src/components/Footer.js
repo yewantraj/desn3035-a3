@@ -41,6 +41,10 @@ function Footer() {
                 </li>
                 <li>
                   <i className="bi bi-chevron-right"></i>
+                  <Link to="/team">Team</Link>
+                </li>
+                <li>
+                  <i className="bi bi-chevron-right"></i>
                   <Link to="/contact">Contact</Link>
                 </li>
               </ul>
