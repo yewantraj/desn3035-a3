@@ -70,7 +70,7 @@ function Home(){
         <p>
             Our team of skilled professionals is passionate about solving complex problems and turning innovative ideas into successful projects. Whether it's digital transformation, software development, or custom solutions, Sigma Tech is your trusted partner in achieving business excellence.
         </p>
-        <a href="/about" class="read-more"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+        <Link to="/about" class="read-more"><span>Read More</span><i class="bi bi-arrow-right"></i></Link>
     </div>
 
 
