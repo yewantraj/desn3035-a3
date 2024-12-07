@@ -24,8 +24,9 @@ function Home(){
   <div className="container">
     <div className="row gy-4">
       <div className="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center" data-aos="zoom-out">
-        <h1>Better Solutions For Your Business</h1>
-        <p>We are team of talented designers making websites with Bootstrap</p>
+      <h1>Innovative Solutions for Every Challenge</h1>
+      <p>Collaborate with experts who turn your business vision into outstanding results.</p>
+
         <div className="d-flex">
           <a href="#about" className="btn-get-started">Get Started</a>
           <a href="https://www.youtube.com/watch?v=6stlCkUDG_s" className="glightbox btn-watch-video d-flex align-items-center" data-lightbox="gallery" data-title="My Video">
@@ -54,22 +55,24 @@ function Home(){
 
     <div className="row gy-4">
 
-      <div className="col-lg-6 content" data-aos="fade-up" data-aos-delay="100">
+        <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="100">
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-          magna aliqua.
+            At Sigma Tech, we are dedicated to delivering innovative solutions that help businesses achieve their goals. With years of experience in the industry, we understand the unique challenges that companies face and work tirelessly to create strategies that bring success.
         </p>
         <ul>
-          <li><i className="bi bi-check2-circle"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></li>
-          <li><i className="bi bi-check2-circle"></i> <span>Duis aute irure dolor in reprehenderit in voluptate velit.</span></li>
-          <li><i className="bi bi-check2-circle"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo</span></li>
+            <li><i class="bi bi-check2-circle"></i> <span>Providing top-notch services tailored to meet client needs.</span></li>
+            <li><i class="bi bi-check2-circle"></i> <span>Delivering results through strategic collaboration and advanced technology.</span></li>
+            <li><i class="bi bi-check2-circle"></i> <span>Committed to building long-term relationships with our partners.</span></li>
         </ul>
-      </div>
+    </div>
 
-      <div className="col-lg-6" data-aos="fade-up" data-aos-delay="200">
-        <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
-        <Link to="/about" className="read-more"><span>Read More</span><i className="bi bi-arrow-right"></i></Link>
-      </div>
+    <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+        <p>
+            Our team of skilled professionals is passionate about solving complex problems and turning innovative ideas into successful projects. Whether it's digital transformation, software development, or custom solutions, Sigma Tech is your trusted partner in achieving business excellence.
+        </p>
+        <a href="/about" class="read-more"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+    </div>
+
 
     </div>
 
@@ -80,46 +83,47 @@ function Home(){
 
 <section id="services" className="services section light-background">
 
-    <div className="container section-title" data-aos="fade-up">
-      <h2>Services</h2>
-      <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-    </div>
+<div class="container section-title" data-aos="fade-up">
+    <h2>Our Services</h2>
+    <p>We provide tailored solutions to help your business grow, with a focus on innovation, efficiency, and customer satisfaction.</p>
+</div>
 
     <div className="container">
 
       <div className="row gy-4">
 
-        <div className="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
-          <div className="service-item position-relative">
-            <div className="icon"><i className="bi bi-cast icon"></i></div>
-            <h4><span className="stretched-link">Lorem Ipsum</span></h4>
-            <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
-          </div>
-        </div>
+      <div className="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="500">
+    <div className="service-item position-relative">
+        <div className="icon"><i className="bi bi-lightbulb icon"></i></div>
+        <h4><span className="stretched-link">Creative Ideas</span></h4>
+        <p>We bring innovative and tailored solutions to drive your business forward.</p>
+    </div>
+</div>
 
-        <div className="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200">
-          <div className="service-item position-relative">
-            <div className="icon"><i className="bi bi-bounding-box-circles icon"></i></div>
-            <h4><span className="stretched-link">Sed ut perspici</span></h4>
-            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
-          </div>
-        </div>
+<div className="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="600">
+    <div className="service-item position-relative">
+        <div className="icon"><i className="bi bi-gear icon"></i></div>
+        <h4><span className="stretched-link">Technical Support</span></h4>
+        <p>Providing reliable and round-the-clock technical support for all your needs.</p>
+    </div>
+</div>
 
-        <div className="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="300">
-          <div className="service-item position-relative">
-            <div className="icon"><i className="bi bi-calendar4-week icon"></i></div>
-            <h4><span className="stretched-link">Magni Dolores</span></h4>
-            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
-          </div>
-        </div>
+<div className="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="700">
+    <div className="service-item position-relative">
+        <div className="icon"><i className="bi bi-graph-up icon"></i></div>
+        <h4><span className="stretched-link">Business Growth</span></h4>
+        <p>Empowering your business with strategies that maximize growth and efficiency.</p>
+    </div>
+</div>
 
-        <div className="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="400">
-          <div className="service-item position-relative">
-            <div className="icon"><i className="bi bi-broadcast icon"></i></div>
-            <h4><span className="stretched-link">Nemo Enim</span></h4>
-            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
-          </div>
-        </div>
+<div className="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="800">
+    <div className="service-item position-relative">
+        <div className="icon"><i className="bi bi-cloud-arrow-down icon"></i></div>
+        <h4><span className="stretched-link">Cloud Solutions</span></h4>
+        <p>Streamlining operations with secure and scalable cloud-based solutions.</p>
+    </div>
+</div>
+
 
       </div>
 
@@ -141,9 +145,9 @@ function Home(){
 
       <div className="col-lg-6 pt-4 pt-lg-0 content">
 
-        <h3>Voluptatem dignissimos provident quasi corporis voluptas</h3>
+      <h3>Our Expertise Defines Excellence</h3>
         <p className="fst-italic">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            At SigmaTech, we combine innovation, experience, and commitment to deliver exceptional solutions. Our diverse skill set empowers businesses to achieve their goals with precision and efficiency.
         </p>
 
         <div className="skills-content skills-animation">

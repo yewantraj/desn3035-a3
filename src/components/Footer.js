@@ -11,8 +11,8 @@ function Footer() {
                 <span className="sitename">sigma tech</span>
               </Link>
               <div className="footer-contact pt-3">
-                <p>A108 Adam Street</p>
-                <p>New York, NY 535022</p>
+              <p>A108 Adam Street</p>
+              <p>Toronto, ON M5H 2N2</p>
                 <p className="mt-3">
                   <strong>Phone:</strong> <span>+1 5589 55488 55</span>
                 </p>
@@ -49,11 +49,10 @@ function Footer() {
            
 
             <div className="col-lg-4 col-md-12">
-              <h4>Follow Us</h4>
-              <p>
-                Cras fermentum odio eu feugiat lide par naso tierra videa magna
-                derita valies
-              </p>
+            <h4>Follow Us</h4>
+            <p>
+                Stay connected with us on social media to get the latest updates, insights, and exclusive content. Join our growing community and be part of the journey!
+            </p>
               <div className="social-links d-flex">
                 <a target='_blank' href="https://www.facebook.com/">
                   <i className="bi bi-facebook"></i>
