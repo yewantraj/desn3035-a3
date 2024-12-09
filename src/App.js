@@ -14,6 +14,7 @@ import { initializeCustomScripts } from './components/assets/main.js';
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
+import { Toaster } from 'react-hot-toast';
 
 function App() {
   useEffect(() => {
@@ -46,6 +47,8 @@ function App() {
     };
   }, []); 
   return (
+    <>
+    <Toaster position="top-right" reverseOrder={false} />
     <BrowserRouter>
       <Nav />
       <Routes>
@@ -53,10 +56,12 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/team" element={<Team />} />
         <Route path="/service" element={<Service />} />
+        
         <Route path="/contact" element={<Contact />} /> 
       </Routes>
       <Footer />
     </BrowserRouter>
+    </>
   );
 }
 

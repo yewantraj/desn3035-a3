@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import emailjs from "emailjs-com";
+import { toast } from 'react-hot-toast';
 function Contact(){
 
   const [formData, setFormData] = useState({
@@ -27,14 +28,14 @@ function Contact(){
     // Send email using EmailJS
     emailjs
       .sendForm(
-        "YOUR_SERVICE_ID", // Service ID from EmailJS
-        "YOUR_TEMPLATE_ID", // Template ID from EmailJS
-        e.target, // The form element
-        "YOUR_USER_ID" // User ID from EmailJS
+        "service_t7o8sys",
+        "template_smqowtc",
+        e.target, 
+        "IYDRxNGn02IUvgF0a", 
       )
       .then(
         (result) => {
-          setStatus("Message sent successfully!");
+          toast.success("Message sent successfully!");
           setFormData({
             name: "",
             email: "",
@@ -43,7 +44,7 @@ function Contact(){
           });
         },
         (error) => {
-          setStatus("Failed to send message. Please try again later.");
+          toast.error("Failed to send message. Please try again later.");
         }
       );
   };
@@ -84,7 +85,7 @@ function Contact(){
           <i className="bi bi-envelope flex-shrink-0"></i>
           <div>
             <h3>Email Us</h3>
-            <p><a href="mailto:something@gmail.com" className="__cf_email__" >something@gmail.com</a></p>
+            <p><a href="mailto:something@gmail.com">something@gmail.com</a></p>
           </div>
         </div>
 
@@ -165,10 +166,6 @@ function Contact(){
           </div>
 
           <div className="col-md-12 text-center">
-            <div className="loading">Loading</div>
-            <div className="error-message">{status}</div>
-            <div className="sent-message">{status}</div>
-
             <button type="submit">Send Message</button>
           </div>
         </div>
