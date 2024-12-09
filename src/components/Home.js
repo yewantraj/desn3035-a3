@@ -3,6 +3,7 @@ import {Link} from 'react-router-dom';
 import Image from './assets/images/hero-img.png';
 import 'glightbox/dist/css/glightbox.min.css';
 import GLightbox from 'glightbox';
+import PageTitle from './PageTitle';
 function Home(){
   useEffect(() => {
    
@@ -17,6 +18,7 @@ function Home(){
  
     return (
      <>
+      <PageTitle title="Home" />
        <main className="main">
 
 <section id="hero" className="hero section dark-background">

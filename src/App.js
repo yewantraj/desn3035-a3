@@ -49,7 +49,7 @@ function App() {
   return (
     <>
     <Toaster position="top-right" reverseOrder={false} />
-    <BrowserRouter basename="/desn3035-a3">
+    <BrowserRouter>
       <Nav />
       <Routes>
         <Route path="/" element={<Home />} /> 

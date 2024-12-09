@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import emailjs from "emailjs-com";
 import { toast } from 'react-hot-toast';
+import PageTitle from './PageTitle';
 function Contact(){
 
   const [formData, setFormData] = useState({
@@ -50,6 +51,7 @@ function Contact(){
   };
     return(
         <>
+         <PageTitle title="Contact" />
          <section id="contact" className="contact section mt-5">
 
 

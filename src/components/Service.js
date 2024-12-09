@@ -1,5 +1,7 @@
+import PageTitle from './PageTitle';
 function Service(){
     return(<>
+     <PageTitle title="Service" />
        <section id="services" className="services section light-background mt-5">
 
        <div class="container section-title" data-aos="fade-up">

@@ -1,7 +1,9 @@
 import React from 'react';
 import UserImage from './assets/images/user.avif';
+import PageTitle from './PageTitle';
 function Team(){
     return(<>
+     <PageTitle title="Team" />
      <section id="team" className="team section mt-5">
 
 

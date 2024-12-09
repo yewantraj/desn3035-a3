@@ -1,6 +1,8 @@
+import PageTitle from './PageTitle';
 function About(){
     return(
         <>
+         <PageTitle title="About" />
          <section id="about" className="about section mt-5">
 
 <div className="container section-title" data-aos="fade-up">
