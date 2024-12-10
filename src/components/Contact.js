@@ -57,7 +57,7 @@ function Contact(){
 
 <div className="container section-title" data-aos="fade-up">
   <h2>Contact</h2>
-  <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+  <p>Contact us for your new website and other tech supports.</p>
 </div>
 
 <div className="container" data-aos="fade-up" data-aos-delay="100">
