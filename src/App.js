@@ -1,5 +1,5 @@
 import {React,useEffect} from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 
 import Nav from './components/Nav';
 import Footer from './components/Footer';
@@ -49,7 +49,7 @@ function App() {
   return (
     <>
     <Toaster position="top-right" reverseOrder={false} />
-    <BrowserRouter>
+    <HashRouter>
       <Nav />
       <Routes>
         <Route path="/" element={<Home />} /> 
@@ -59,7 +59,7 @@ function App() {
         <Route path="/contact" element={<Contact />} /> 
       </Routes>
       <Footer />
-    </BrowserRouter>
+    </HashRouter>
     </>
   );
 }
